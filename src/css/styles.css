@@ -1,0 +1,233 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    transition: all .5s;
+}
+
+.navbar {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(107, 36, 86);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar,
+.nav-links,
+.navbar2,
+.nav-links2,
+.profile-div,
+.overlay,
+.about,
+.Porfolio,
+.reachout.message-box form,
+.reachout {
+    display: flex;
+}
+
+.nav-links {
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: rgb(238, 168, 168);
+}
+
+.nav-links li:hover a {
+    color: #fff;
+}
+
+.navbar2 {
+    width: 100%;
+    padding: 20px;
+    background-color: burlywood;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.nav-links2 {
+    gap: 50px;
+}
+
+.nav-links2 li a {
+    color: rgb(107, 36, 86);
+    font-weight: 600;
+}
+
+.nav-links2 li:hover a {
+    color: black;
+}
+
+.profile {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile-div {
+    align-items: center;
+    gap: 20px;
+}
+
+.my-name {
+    color: rgb(238, 168, 168);
+    font-weight: 600;
+}
+
+main {
+    width: 100%;
+}
+
+
+
+.home {
+    width: 100%;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px 30px;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.profile2 {
+    width: 220px;
+    height: 220px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.overlay h2 {
+    margin-bottom: 20px;
+}
+
+.about{
+    background-color: rgb(107, 36, 86);
+    width: 100%;
+    padding: 20px 30px;
+    text-align: center;
+    color: rgb(238, 168, 168);
+    align-items: center;
+    justify-content: center;
+}
+
+.about p {
+    width: 500px;
+}
+
+.about h3 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    padding: 30px 20px;
+    background-color: gray;
+    text-align: center;
+
+}
+
+.my-portfolio {
+    background-color: rgb(233, 146, 207);
+    width: 100%;
+    padding: 20px 30px;
+    text-align: center;
+    color: rgb(104, 54, 54);
+    align-items: center;
+    justify-content: center;
+}
+
+.my-portfolio .projects {
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+    gap: 30px;
+    width: 100%;
+    justify-content: center;
+}
+
+.my-portfolio div img {
+    width: 200px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.my-portfolio h3,
+.my-portfolio p {
+    margin-bottom: 20px;
+}
+
+.reachout {
+    background-color: rgb(88, 76, 85);
+    width: 100%;
+    padding: 20px 30px;
+    text-align: center;
+    color: rgb(241, 232, 232);
+    align-items: center;
+    justify-content: center;
+}
+
+.reachout .message-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reachout .message-box form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    gap: 10px;
+}
+
+form * {
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+form textarea {
+    resize: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+form input {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+form input[type='submit'] {
+    background-color: rgb(97, 35, 59);
+    color: rgb(228, 181, 164);
+}
+
+form input[type='submit']:hover {
+    background-color: rgb(206, 136, 163);
+    color: black;
+
+}
